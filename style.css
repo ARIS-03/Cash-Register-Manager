@@ -1,0 +1,74 @@
+*{
+    text-align: center;
+    font-family: monospace;
+}
+body{
+    margin: 5rem;
+    color: white;
+    background: url('type.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    background-size: fill ;
+}
+.main {
+    border-radius:1rem;
+    background: rgba(134, 129, 120, 0.582);
+    width: 55%;
+    margin: auto;
+    padding:1rem 0rem;
+}
+
+
+
+table, th, td {
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(221, 167, 18);
+  }
+  .btn,.input1,.input2 {
+      margin:1rem auto ;
+    display: block;
+  }
+  .main h1{
+      font-size: 6rem;
+      padding: 1rem 0rem;
+  }
+
+  .main p {
+      margin: 0;
+      font-size: 2rem;
+      padding-bottom: 2rem;
+  }
+
+  .container label{
+      padding: 0.5rem;
+      text-decoration: underline 3px rgb(255, 169, 39);
+      font-size:1.8rem;
+  }
+
+  .container label input{
+      font-size: 1.7rem;
+      width: 27%;
+      height: 1.7rem;
+  }
+  button{
+      font-size: 1.7rem;
+      padding: 0.5rem;
+      width: 15%;
+      background:rgb(255, 169, 39);
+  }
+  button:hover{
+    background:black;
+    color: rgb(255, 169, 39);
+
+  }
+  
+  .out {
+      font-size:1.8rem ;
+      padding:0;
+      margin: 0rem;
+  }
